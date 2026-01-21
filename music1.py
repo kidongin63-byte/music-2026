@@ -18,12 +18,12 @@ st.markdown("""
         padding: 10px 30px;
     }
     h1 {
-        color: white;
+        color: black;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     }
     /* 텍스트 입력 필드 라벨 색상 변경 */
     .stTextInput > label, .stSelectbox > label {
-        color: white !important;
+        color: black !important;
         font-weight: bold;
     }
     </style>
@@ -141,4 +141,5 @@ st.markdown("""
 <div style='text-align: center; color: white; font-size: 12px;'>
     <p>🎵 AI 가사 생성기 | Powered by Google Gemini</p>
 </div>
+
 """, unsafe_allow_html=True)
